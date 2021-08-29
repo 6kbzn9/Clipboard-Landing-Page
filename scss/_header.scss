@@ -1,0 +1,22 @@
+// header and subheader
+
+.header {
+  padding: 7rem 0;
+  background: url(../images/bg-header-desktop.png) top center no-repeat;
+  margin-bottom: 2rem;
+
+  .logo {
+    width: 130px;
+    margin-bottom: 3rem;
+    cursor: pointer;
+  }
+
+  .description {
+    font-size: 1.15rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.sub-header {
+  margin-bottom: 4.5rem;
+}
