@@ -1,0 +1,55 @@
+footer {
+  margin-top: 4rem;
+  background-color: #f4f4f4;
+  padding: 2rem 0;
+
+  .container {
+    max-width: 1120px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      width: 60px;
+      margin-right: 4rem;
+      cursor: pointer;
+    }
+    .links-1,
+    .links-2 {
+      a {
+        margin-right: 2.5rem;
+        display: block;
+
+        &:first-child {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    .links-3 {
+      align-self: flex-start;
+    }
+  }
+
+  .icons {
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+
+    a:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+}

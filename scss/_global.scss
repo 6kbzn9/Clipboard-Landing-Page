@@ -46,12 +46,16 @@ p {
 a {
   color: var(--DarkGrayishBlue);
   transition: 200ms ease-in-out;
+  text-decoration: none;
 
   &:hover {
     color: var(--StrongCyan);
   }
 }
 
+.buttons {
+  margin-top: 2.5rem;
+}
 .btn-cta {
   --bg-clr: transparent;
   --shdw-clr: transparent;
