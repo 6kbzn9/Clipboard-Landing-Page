@@ -35,6 +35,9 @@ h1 {
 h2 {
   font-size: 2rem;
 }
+h3 {
+  font-size: 1.5rem;
+}
 
 p {
   color: var(--GrayishBlue);
@@ -82,5 +85,33 @@ a {
   &:hover {
     color: #fff;
     opacity: 0.8;
+  }
+}
+
+@media (max-width: 810px) {
+  .container {
+    max-width: 600px;
+  }
+  h1,
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 625px) {
+  h1,
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn-cta {
+    display: block;
+
+    &.ios {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
   }
 }

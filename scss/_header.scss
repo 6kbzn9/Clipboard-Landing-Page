@@ -19,3 +19,20 @@
 .sub-header {
   margin-bottom: 4.5rem;
 }
+
+@media (max-width: 810px) {
+  .header {
+    padding: 5rem 0;
+
+    .description {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    background: url(../images/bg-header-mobile.png) top center no-repeat;
+    background-size: cover;
+  }
+}

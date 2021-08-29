@@ -14,6 +14,7 @@ footer {
   .links {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     .logo {
       width: 60px;
@@ -50,6 +51,52 @@ footer {
 
     a:not(:last-child) {
       margin-right: 1rem;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  footer {
+    .container {
+      text-align: left;
+      flex-direction: column;
+    }
+
+    .links {
+      width: 100%;
+    }
+    .icons {
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media (max-width: 625px) {
+  footer {
+    .container {
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .links {
+      width: 100%;
+      display: block;
+      .logo {
+        margin-right: 0;
+        margin-bottom: 2rem;
+      }
+
+      .links-1,
+      .links-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        a {
+          margin-right: 0;
+        }
+      }
     }
   }
 }

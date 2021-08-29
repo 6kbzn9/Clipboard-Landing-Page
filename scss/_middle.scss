@@ -52,4 +52,35 @@
 .logos {
   align-items: center;
   margin: 5rem 0;
+
+  img {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 920px) {
+  .flow-container,
+  .logos {
+    display: block;
+  }
+
+  .flow-container {
+    .flow {
+      &:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .logos {
+    img {
+      display: block;
+      margin: 0 auto;
+
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
 }
